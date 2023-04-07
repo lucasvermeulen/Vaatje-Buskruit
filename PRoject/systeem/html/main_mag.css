@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+table {
+    background-color: #f7b5b5;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type=submit] {
+    border: none;
+}
+
+/*header*/
+#headcontainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    background-color: #FF8A00;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#headerlogo {
+    padding-left: 10px;
+    width: 170px;
+}
+
+#headeraccount {
+    background-color: #FFE600;
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+/*inlog*/
+#inlog_container {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.inlog {
+    width: 500px;
+    height: 250px;
+    font-size: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FF8A00;
+    background-color: #f2f2f2;
+}
+
+#inloggen_function {
+    line-height: 250px;
+}
+
+#login_input {
+    font-size: 32px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FF8A00;
+}
+
+#login_submit {
+    font-size: 24px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FF8A00;
+}
+
+/*magazijn en kassa*/
+#systeem_container {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+
+}
+
+#systeem_function_container {
+    position: relative;
+    margin-top: 125px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/*magazijn*/
+
+
+/*zoek kant magzijn*/
+#magazijn_search {
+    background-color: #FFCBAE;
+    width: 200px;
+    height: 100%;
+}
+
+#magazijn_zoekopdrachten_form {
+    padding: 10px;
+}
+
+#magazijn_zoek_input {
+    width: 150px;
+}
+
+#zoekbutton_magazijn {
+    float: right;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+
+/*csv*/
+#lastpage {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#file {
+    font-size: 12px;
+}
+
+#inport {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+}
+
+
+
+/*tabel kant magazijn*/
+
+#magazijn_tabelfound {
+    padding: 15px;
+    background-color: #FFCBAE;
+    margin-left: 25px;
+    width: 100%;
+    min-height: 95%;
+    height: fit-content;
+}
+
+#nextpage {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*het add/edit van prducten*/
+#product_edit_magazijn_cont {
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+
+}
+
+.product_edit_magazijn {
+    width: 500px;
+    height: 250px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #FF8A00;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#product_edit_prijs {
+    margin-left: 75px;
+    font-size: 16px;
+}
+
+#product_edit_submit {
+    padding: 5px;
+    border: solid #FF8A00 2px;
+    border-radius: 20px;
+    float: right;
+}
+
+#product_dataverwerk_magazijn {
+    line-height: 250px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*kassa systeem*/
+#kassa_left_block_container {
+    background-color: #FFCBAE;
+    width: 47%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+
+}
+
+#kassa_search {
+    width: 100%;
+    height: 100px;
+}
+
+#kassa_input {
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+}
+
+#kassa_calculator {
+    background-color: #FFCBAE;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+#kassa_table {
+    background-color: #FFCBAE;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#kassa_tr {
+    background-color: #FFC634;
+}
+
+#kassa_td {
+    border-radius: 20px;
+    width: 25%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#kassa_keypad {
+    background-color: #FFC634;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+/*kassa rechterkant*/
+#kassa_right_block {
+    background-color: #FFCBAE;
+    width: 47%;
+    padding: 10px;
+}
+
+#einde_transactie {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 75px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 5px;
+    border: #FF8A00 solid 2px;
+}
+
+
+#kassa_totaal {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+
+#bon_totaal {
+
+    bottom: 20px;
+    float: right;
+}
+
+
+
+
+
+
+/*bon*/
+#bon_uitprint {
+    background-color: #f7b5b5;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+
+#bon_transactie {
+    background-color: #f2f2f2;
+    position: absolute;
+    border-color: #FF8A00;
+    border-style: solid;
+    bottom: 0px;
+    margin: 25px;
+    right: 0px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#bestelling {
+    margin-top: 100px;
+}
